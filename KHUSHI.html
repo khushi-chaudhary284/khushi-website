@@ -1,24 +1,107 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>welcome to my world </title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='khushi.css')}}">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </title> Velnora Creation </title>
+        <link rel="stylesheet" href="css/khushi.css">
     </head>
     <body>
-        <h1>welcome to my website</h1>
-        <h2>about me </h2>
-        <p> my name is khushi. i am learning web development.</p>
-        <h2> my skills</h2>
-        <ul>
+        <header>
+        <h1>Velnora Creation</h1>
+        <p> Fashion . Digital . Creativity</p>
+        </header>
+
+        <nav>
+             <a href="#home">Home</a>
+             <a href="#about">About</a>
+             <a href="#services">Services</a>
+             <a href="#gallery">Gallery</a>
+             <a href="#contact">contact</a>
+        </nav>
+
+            <!--Home Section-->
+        <section class="hero" id="Home">
+            <h2> Welcome to Velnora Creation </h2>
+               <p>We bring creativity to life through Fashion Design, Website Development, and Digital Inovation</p>
+               <button>Explore</button>
+               <button>Contact Us</button>
+        </section>
+        
+        <!--Skills Section-->
+        <section id="Skills">
+            <h2>Our Skills</h2>
+             <ul>
             <li>html</li>
             <li>css</li>
+            <li>python</li>
+            <li>java</li>
             <Li>basic computer</Li>
 
-        </ul>  
-        <h2>my favouritenimage</h2>
-        <img src="{{ url_for('static',filename='WIN_20260731_18_37_35_Pro')}}" alt="khushi    ">
+        </ul>
 
-        <h2>contact</h2>
-        <p>email: example@gmail.coms</p>
+        </section>
+
+        <!--About Section-->
+        <section id="about">
+            <h2>About Velnora Creation</h2>
+            <p>
+                Velnora Creation is a creative brand focused on Fashion Design,   Website Development, and Digital Inovation. We belive in combining creativity, technology, and modern ideas to create something unique.
+
+            </p>
+        </section>
+            <!--Services Section-->
+            <section id="services">
+                <h2>Our Services</h2>
+                <div>
+                    <h3>Fashion Design</h3>
+                    <p>
+                        creative and modernfashion design ideas for a unique style.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Website Development</h3>
+                    <p>
+                        Simple , attractive and proffesniol websites for individuals and business. 
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Digital Creativity</h3>
+                        <p>
+                            Creativity digital solution for modern business and brands.
+                        </p>
+                    
+                </div>
+            </section>
+
+            <!--Gallery Section-->
+            <section id="Gallery">
+
+                <h2>My Favourite Image</h2>
+        <img src="'static',filename='WIN_20260731_18_37_35_Pro.jpg'" alt="khushi">
+                
+            </section>
+
+            <!--Contact Section-->
+            <section id="Contact">
+
+                <h2>Contact</h2>
+        <p>Email: example@gmail.coms</p>
+
+            </section>
+
+            <footer>
+                <p>
+
+                    ©  2026 Velnora Creation . All Rights Reserved. 
+                </p>
+            </footer>
+            <script src="J S/script.js"></script>
+
+        
+
 
     </body>
 </html>
